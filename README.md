@@ -1,7 +1,7 @@
 # ASIR_Mission-Start
 Acabas de ser contratado como Desarrollador Junior en NextGen Web Solutions. Tu primera misión no es escribir código desde cero, sino preparar tu "estación de combate" digital y resolver un problema de rendimiento que está afectando a un cliente importante.  +1
 MILESTONE 1: Auditoría Inicial del Rendimiento
-📊 Issue: Levantar inventario de infraestructura actual
+1. Issue: Levantar inventario de infraestructura actual
 
 Descripción:
 Realizar un inventario detallado de todos los recursos tecnológicos actualmente en uso (servidores, entornos de desarrollo, herramientas, servicios externos).
@@ -17,7 +17,7 @@ Tecnologías y versiones identificadas.
 
 Recursos cloud o servicios externos documentados.
 
-🖥️ Issue: Identificar hardware y recursos por entorno
+2. Issue: Identificar hardware y recursos por entorno
 
 Descripción:
 Analizar la asignación de CPU, RAM, almacenamiento y red en cada entorno (dev, test, prod).
@@ -33,7 +33,7 @@ Registro de configuraciones actuales.
 
 Informe preliminar de posibles limitaciones.
 
-🔍 Issue: Analizar tiempos actuales de build
+3. Issue: Analizar tiempos actuales de build
 
 Descripción:
 Medir el tiempo promedio que tarda el proceso de build del proyecto.
@@ -49,7 +49,7 @@ Promedio calculado.
 
 Identificación de fases más lentas.
 
-⏱️ Issue: Medir tiempos de despliegue
+4. Issue: Medir tiempos de despliegue
 
 Descripción:
 Evaluar cuánto tiempo tarda el proceso de despliegue desde commit hasta producción/staging.
@@ -62,7 +62,7 @@ Desglose por etapas.
 
 Registro documentado.
 
-📉 Issue: Analizar consumo de CPU/RAM
+5. Issue: Analizar consumo de CPU/RAM
 
 Descripción:
 Monitorizar consumo de recursos durante ejecución normal y bajo carga.
@@ -75,7 +75,7 @@ Identificación de picos.
 
 Conclusión técnica.
 
-🧪 Issue: Ejecutar test de carga inicial
+6. Issue: Ejecutar test de carga inicial
 
 Descripción:
 Simular múltiples usuarios o peticiones simultáneas para medir estabilidad.
@@ -88,7 +88,7 @@ Resultados de throughput y latencia.
 
 Identificación de errores bajo carga.
 
-📄 Issue: Documentar resultados en informe técnico
+7. Issue: Documentar resultados en informe técnico
 
 Descripción:
 Redactar informe formal con métricas recopiladas.
@@ -101,7 +101,7 @@ Tablas y gráficos incluidos.
 
 Conclusiones claras.
 
-📌 Issue: Crear dashboard inicial de métricas
+8. Issue: Crear dashboard inicial de métricas
 
 Descripción:
 Crear panel visual para visualizar métricas recogidas.
@@ -115,7 +115,7 @@ Métricas visibles en tiempo real o histórico.
 Accesible al equipo.
 
 🎯 MILESTONE 2: Estandarización del Entorno
-🔎 Issue: Detectar versiones actuales de herramientas
+1. Issue: Detectar versiones actuales de herramientas
 
 Descripción:
 Identificar versiones actuales de Node, Docker, base de datos, etc.
@@ -126,7 +126,7 @@ Lista documentada.
 
 Comparativa entre desarrolladores.
 
-📋 Issue: Definir stack tecnológico estándar
+2. Issue: Definir stack tecnológico estándar
 
 Descripción:
 Seleccionar versiones oficiales que se usarán en toda la empresa.
@@ -137,7 +137,7 @@ Documento aprobado.
 
 Justificación técnica.
 
-🐳 Issue: Crear Dockerfile optimizado
+3. Issue: Crear Dockerfile optimizado
 
 Descripción:
 Diseñar contenedor reproducible optimizado para desarrollo y producción.
@@ -150,7 +150,7 @@ Build funcional.
 
 Tamaño optimizado.
 
-📦 Issue: Implementar docker-compose unificado
+4. Issue: Implementar docker-compose unificado
 
 Descripción:
 Orquestar servicios necesarios (app + db + redis, etc.).
@@ -161,7 +161,7 @@ Levantamiento con un solo comando.
 
 Servicios interconectados.
 
-📘 Issue: Crear guía de instalación del entorno
+5. Issue: Crear guía de instalación del entorno
 
 Descripción:
 Redactar documentación paso a paso para configurar el entorno.
@@ -172,7 +172,7 @@ Documento claro.
 
 Probado en máquina limpia.
 
-🔄 Issue: Implementar .env.example
+6. Issue: Implementar .env.example
 
 Descripción:
 Crear plantilla de variables de entorno.
@@ -183,7 +183,7 @@ Archivo sin datos sensibles.
 
 Variables explicadas.
 
-🧪 Issue: Validar entorno en máquina limpia
+7. Issue: Validar entorno en máquina limpia
 
 Descripción:
 Probar instalación completa desde cero.
@@ -194,7 +194,7 @@ Instalación exitosa.
 
 Registro del tiempo de setup.
 
-📚 Issue: Documentar procedimiento en README
+8. Issue: Documentar procedimiento en README
 
 Descripción:
 Actualizar documentación oficial del proyecto.
@@ -206,7 +206,7 @@ README actualizado.
 Instrucciones claras.
 
 🎯 MILESTONE 3: Optimización CI/CD
-🔍 Issue: Auditar pipeline actual
+1. Issue: Auditar pipeline actual
 
 Descripción:
 Revisar estructura actual del pipeline.
@@ -217,7 +217,7 @@ Flujo documentado.
 
 Problemas identificados.
 
-🚦 Issue: Implementar stages claros
+2. Issue: Implementar stages claros
 
 Descripción:
 Separar pipeline en build, test y deploy.
@@ -228,7 +228,7 @@ Stages visibles.
 
 Flujo ordenado.
 
-⚡ Issue: Optimizar cacheo de dependencias
+3. Issue: Optimizar cacheo de dependencias
 
 Descripción:
 Implementar mecanismos de caché para reducir tiempos.
@@ -239,7 +239,7 @@ Tiempo reducido.
 
 Caché funcional.
 
-🧪 Issue: Integrar tests automáticos
+4. Issue: Integrar tests automáticos
 
 Descripción:
 Ejecutar pruebas automáticamente en cada push.
@@ -250,7 +250,7 @@ Tests ejecutándose en pipeline.
 
 Fallos bloquean merge.
 
-🛡️ Issue: Añadir análisis estático
+5. Issue: Añadir análisis estático
 
 Descripción:
 Integrar herramienta de análisis de calidad de código.
@@ -261,7 +261,7 @@ Reporte automático.
 
 Errores detectados.
 
-📊 Issue: Medir mejora de tiempos
+6. Issue: Medir mejora de tiempos
 
 Descripción:
 Comparar métricas actuales vs baseline.
@@ -273,7 +273,7 @@ Comparativa documentada.
 % mejora calculado.
 
 🎯 MILESTONE 4: Monitorización
-📡 Issue: Seleccionar herramienta de monitoreo
+1. Issue: Seleccionar herramienta de monitoreo
 
 Descripción:
 Evaluar y elegir solución adecuada.
@@ -284,7 +284,7 @@ Justificación técnica.
 
 Herramienta instalada.
 
-📈 Issue: Configurar métricas básicas
+2. Issue: Configurar métricas básicas
 
 Descripción:
 Activar monitoreo de CPU, RAM, uptime.
@@ -295,7 +295,7 @@ Métricas visibles.
 
 Datos en tiempo real.
 
-🚨 Issue: Configurar alertas automáticas
+3. Issue: Configurar alertas automáticas
 
 Descripción:
 Crear reglas de alerta ante fallos.
@@ -306,7 +306,7 @@ Notificación recibida ante evento.
 
 Umbrales definidos.
 
-🧪 Issue: Simular caída del sistema
+4. Issue: Simular caída del sistema
 
 Descripción:
 Forzar error para validar sistema de alertas.
@@ -318,27 +318,27 @@ Alerta disparada correctamente.
 Registro del evento.
 
 🎯 MILESTONE 5: Documentación Final
-📑 Issue: Redactar memoria técnica
+1. Issue: Redactar memoria técnica
 
 Descripción:
 Documento formal explicando todo el proyecto.
 
-🏗️ Issue: Incluir diagramas de arquitectura
+2 Issue: Incluir diagramas de arquitectura
 
 Descripción:
 Diseñar diagramas técnicos (infraestructura y flujo CI/CD).
 
-📊 Issue: Comparativa antes/después
+3. Issue: Comparativa antes/después
 
 Descripción:
 Tabla clara con mejoras obtenidas.
 
-🎯 Issue: Evaluación de objetivos cumplidos
+4. Issue: Evaluación de objetivos cumplidos
 
 Descripción:
 Analizar si se cumplieron metas definidas.
 
-🎤 Issue: Preparar presentación final
+5. Issue: Preparar presentación final
 
 Descripción:
 Crear presentación para defensa del proyecto.
